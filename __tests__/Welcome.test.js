@@ -4,14 +4,10 @@
 import { shallow } from 'enzyme'
 import React from 'react'
 
-import Welcome from '../components/Welcome';
+import Welcome from '../components/Welcome'
 
 describe('<Welcome />', () => {
-
-    /**
-     * TODO
-     */
-    it('will success', () => {
-        expect(true).toBe(true)
-    })
+  it('will success', () => {
+    expect(true).toBe(true)
+  })
 })
